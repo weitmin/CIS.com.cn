@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <meta name='keywords' content='HTML,CSS,SQL'/>
+        <meta name='generator' content='Visual Studio Code'/>
+        <meta name='author' content='3037661237@qq.com'/>
+        <meta name='revised' content='ZiQin Hua,6/20/2020'/>
+        <meta http-equiv="content-type"  content='text/html'/>
+        <meta name='keywords' content='华洁的个人主页'/>
+        <title>常熟国际学校 | 华洁</title>
+        <base target="top"/>
+        <style>
+            #front-logo-pic
+            {
+                position: absolute;
+                top:10px;
+                left:5px;
+            }   
+            #back-logo-pic
+            {
+                position:absolute;
+                top:20px;
+                left:600px;
+            }
+            #all
+            {
+                position:absolute;
+                top:0px;
+                left:150px;
+                width:1200px;
+                height:3000px;
+                background-color:white;
+                align-self: center;
+                
+            }
+            #cas
+            {
+                /* padding:10px 40px;  */
+                background:rgb(251, 118, 17);
+                width:1200px;
+                border-radius:100px 100px 0px 0px ;
+                height:60px;
+                position:absolute;
+                top:120px;
+                left:0px;
+            }
+            #pic
+            {
+                position: absolute;
+                top:180px;
+                left:0px;
+            }
+            #mtext
+            {
+                position:absolute;
+                top:900px;
+                left:600px;
+            }
+            #hj-img
+            {
+                position:absolute;
+                top:1000px;
+                left:400px;
+            }
+            #hj-jieshao
+            {
+                position:absolute;
+                top:1400px;
+                left:400px;
+            }
+            #ma-shan-zheng
+            {
+                font-size: 40px;
+                font-family: "ma shan zheng";
+            }
+            #footer-a
+            {
+                position: absolute;
+                top:2800px;
+                left:1000px;
+            }
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Long+Cang|Ma+Shan+Zheng|ZCOOL+KuaiLe|ZCOOL+QingKe+HuangYou|ZCOOL+XiaoWei&display=swap&subset=chinese-simplified');
+        </style>
+    </head>
+
+    <body style='background-color:rgb(235,235,235)'>
+        <script type = 'text/javascript' src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+            $(function(){
+                drawRect();
+            });
+
+            var drawRect = function(){
+                var canvas = document.getElementById("cas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = 'rgb(251,118,17)';
+                ctx.fillRect(100,100,600,400);
+
+            };
+        </script>
+        <div id ='all'>
+            <div>
+                <canvas id='cas'></canvas>
+            </div>
+
+            <div id='up' >
+                <div id='logo-pic'>
+                    <div id='front-logo-pic'>
+                        <img src="..\image\logo.png" alt="logo"/>
+                    </div>
+                    <div id='back-logo-pic'>
+
+                        <img src='..\image\小学部.png' alt='小学部logo'/>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id='middle-up'>
+                <div id='pic'>
+                    <img src="..\image\jq_p1.jpg" alt='a picture' width='1200px' height='450px'/>
+                </div>
+            </div>
+            <div id='middle'>
+                <div id='mtext'>
+                    <p id='ma-shan-zheng'>华洁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小学数学教师</p>
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <hr/>
+                </div>
+                <div id='hj-img'>
+                    <img src="..\image\华洁.jpg"/>
+                </div>
+                <div id='hj-jieshao'>
+                    <p id='ma-shan-zheng'>小学数学一级教师<br/>常熟市“高新区优秀教育工作者”<br/>全国华罗庚金杯赛少年数学邀请赛优秀辅导员<br/>论文发表：<br/>《在归纳推理中学会思考》常熟市小学数学年会论文录用，刊登于《常熟教研》</p>
+                    <p id='ma-shan-zheng'>《浅谈低年级口算能力的培养》发表于《俪人·教师版》杂志<br/>《小学数学核心素养之数感的培养策略》发表于《东方教育》杂志<br/>《浅谈新课改理念下小学数学创新能力的培养》获全国高师数学教育研究会小教培训工作委员会第十七届优秀论文评比二等奖</p>
+                    <p id='ma-shan-zheng'>《谈小学生数学阅读能力的培养》蓝天杯教学论文二等奖<br/>《加法交换律和结合律》第十届江苏省“蓝天杯”教学设计竞赛二等奖</p>
+
+                </div>
+                
+                
+                
+            </div>
+            <div id='footer-a'>
+                <p style = 'font-size: 30px;'>上一个:<a href='..\马爱华的个人网站\马爱华的个人网站.html'>马爱华</a></p>
+            </div>
+        </div>
+        
+
+    </body>
+        
+
+
+    
+</html>
